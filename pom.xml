@@ -4,7 +4,7 @@
   <groupId>coop.wholefoods.jxl</groupId>
   <artifactId>jxl</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-SS</version>
   <name>jxl</name>
   <url>http://maven.apache.org</url>
   <dependencies>

@@ -2,10 +2,17 @@ package coop.wholefoods.jxl;
 
 import gnu.getopt.Getopt;
 
+/**
+ * Wrapper class for main()
+ */
 public class App 
 {
-    public static final String SAMPLE_XLSX_FILE_PATH = "/home/andy/jxl/RP.xlsm";
+    public static final String SAMPLE_XLSX_FILE_PATH = "RP.xlsm";
 
+    /**
+     * Use Getopt to read command line options then call
+     * JXL to extract the data
+     */
     public static void main( String[] args )
     {
         for (String s: args) {
